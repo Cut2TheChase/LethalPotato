@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sigurd.BepInEx.CSync" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="LethalLib">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\LethalLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Netcode.Runtime">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\Unity.Netcode.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>P:\LETHAL MODDING\REFERENCES\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+<Target Name="NetcodePatch" AfterTargets="PostBuildEvent">
+    <Exec Command="netcode-patch -nv 1.5.2 &quot;$(TargetPath)&quot; @(ReferencePathWithRefAssemblies->'&quot;%(Identity)&quot;', ' ')" />
+</Target>
+
+</Project>

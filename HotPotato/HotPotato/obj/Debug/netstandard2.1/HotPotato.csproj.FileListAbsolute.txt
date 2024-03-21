@@ -1,0 +1,12 @@
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\bin\Debug\netstandard2.1\HotPotato.deps.json
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\bin\Debug\netstandard2.1\HotPotato.dll
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\bin\Debug\netstandard2.1\HotPotato.pdb
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\bin\Debug\netstandard2.1\LethalLib.dll
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.csproj.AssemblyReference.cache
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.AssemblyInfoInputs.cache
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.AssemblyInfo.cs
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.csproj.CoreCompileInputs.cache
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.csproj.CopyComplete
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.dll
+C:\Users\Chase B\source\repos\HotPotato\HotPotato\obj\Debug\netstandard2.1\HotPotato.pdb
